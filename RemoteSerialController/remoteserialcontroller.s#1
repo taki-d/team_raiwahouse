@@ -4873,30 +4873,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <wire x1="-15.5" y1="8.5" x2="-15.5" y2="10.8" width="0.127" layer="21"/>
 <wire x1="15.5" y1="8.5" x2="15.5" y2="10.8" width="0.127" layer="21"/>
 </package>
-<package name="TSSOP16-AD">
-<smd name="1" x="-2.275" y="-2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="2" x="-1.625" y="-2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="3" x="-0.975" y="-2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="4" x="-0.325" y="-2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="5" x="0.325" y="-2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="6" x="0.975" y="-2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="7" x="1.625" y="-2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="8" x="2.275" y="-2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="9" x="2.275" y="2.775" dx="0.45" dy="1.05" layer="1"/>
-<wire x1="-2.5" y1="2.2" x2="-2.5" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.2" x2="2.5" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.2" x2="2.5" y2="2.2" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.2" x2="-2.5" y2="2.2" width="0.127" layer="21"/>
-<smd name="10" x="1.625" y="2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="11" x="0.975" y="2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="12" x="0.325" y="2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="13" x="-0.325" y="2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="14" x="-0.975" y="2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="15" x="-1.625" y="2.775" dx="0.45" dy="1.05" layer="1"/>
-<smd name="16" x="-2.275" y="2.775" dx="0.45" dy="1.05" layer="1"/>
-<text x="-2.925" y="3.575" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.925" y="-4.875" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="SSOP28" urn="urn:adsk.eagle:package:14013/1" type="box">
@@ -5190,30 +5166,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <pin name="5" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas"/>
 <pin name="G1" x="7.62" y="7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="G2" x="7.62" y="-7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="ADM3202">
-<wire x1="0" y1="0" x2="0" y2="-45.72" width="0.254" layer="94"/>
-<wire x1="0" y1="-45.72" x2="20.32" y2="-45.72" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-45.72" x2="20.32" y2="0" width="0.254" layer="94"/>
-<wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="T1_IN" x="-5.08" y="-27.94" length="middle"/>
-<pin name="T2_IN" x="-5.08" y="-30.48" length="middle"/>
-<pin name="R1_OUT" x="-5.08" y="-35.56" length="middle"/>
-<pin name="R2_OUT" x="-5.08" y="-38.1" length="middle"/>
-<pin name="T1_OUT" x="25.4" y="-27.94" length="middle" rot="R180"/>
-<pin name="T2_OUT" x="25.4" y="-30.48" length="middle" rot="R180"/>
-<pin name="R1_IN" x="25.4" y="-35.56" length="middle" rot="R180"/>
-<pin name="R2_IN" x="25.4" y="-38.1" length="middle" rot="R180"/>
-<pin name="GND" x="-5.08" y="-43.18" length="middle"/>
-<pin name="C2-" x="-5.08" y="-20.32" length="middle"/>
-<pin name="C2+" x="-5.08" y="-15.24" length="middle"/>
-<pin name="V-" x="25.4" y="-15.24" length="middle" rot="R180"/>
-<pin name="C1-" x="-5.08" y="-7.62" length="middle"/>
-<pin name="C1+" x="-5.08" y="-2.54" length="middle"/>
-<pin name="VCC" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="V+" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<text x="0" y="2.54" size="2.54" layer="95">&gt;NAME</text>
-<text x="0" y="-50.8" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7258,36 +7210,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADM3202ARUZ" prefix="U">
-<gates>
-<gate name="G$1" symbol="ADM3202" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSSOP16-AD">
-<connects>
-<connect gate="G$1" pin="C1+" pad="1"/>
-<connect gate="G$1" pin="C1-" pad="3"/>
-<connect gate="G$1" pin="C2+" pad="4"/>
-<connect gate="G$1" pin="C2-" pad="5"/>
-<connect gate="G$1" pin="GND" pad="15"/>
-<connect gate="G$1" pin="R1_IN" pad="13"/>
-<connect gate="G$1" pin="R1_OUT" pad="12"/>
-<connect gate="G$1" pin="R2_IN" pad="8"/>
-<connect gate="G$1" pin="R2_OUT" pad="9"/>
-<connect gate="G$1" pin="T1_IN" pad="11"/>
-<connect gate="G$1" pin="T1_OUT" pad="14"/>
-<connect gate="G$1" pin="T2_IN" pad="10"/>
-<connect gate="G$1" pin="T2_OUT" pad="7"/>
-<connect gate="G$1" pin="V+" pad="2"/>
-<connect gate="G$1" pin="V-" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -7364,7 +7286,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <part name="GND10" library="taki-library" deviceset="GND" device=""/>
 <part name="C9" library="taki-library" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="C11" library="taki-library" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="U1" library="taki-library" deviceset="ADM3202ARUZ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7595,10 +7516,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <attribute name="NAME" x="173.101" y="133.096" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="168.021" y="134.112" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U1" gate="G$1" x="139.7" y="149.86" smashed="yes">
-<attribute name="NAME" x="139.7" y="150.114" size="2.54" layer="95"/>
-<attribute name="VALUE" x="139.446" y="101.346" size="2.54" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -7722,7 +7639,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <wire x1="134.62" y1="106.68" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="106.68" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="GND" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="GND" pin="GND"/>
@@ -7788,7 +7704,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <wire x1="175.26" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="142.24" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <junction x="177.8" y="147.32"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="RTS" class="0">
@@ -7841,7 +7756,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <segment>
 <wire x1="134.62" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
 <label x="127" y="114.3" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="R1_OUT"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7891,7 +7805,6 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <segment>
 <wire x1="134.62" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <label x="127" y="121.92" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="T1_IN"/>
 </segment>
 </net>
 <net name="N$84" class="0">
@@ -8148,21 +8061,18 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="T1_OUT"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="114.3" x2="167.64" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="R1_IN"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="C1+"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -8171,14 +8081,12 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <wire x1="124.46" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="147.32" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="142.24" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="C1-"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="134.62" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="C2+"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -8187,21 +8095,18 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <wire x1="124.46" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="134.62" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="C2-"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="V+"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="V-"/>
 </segment>
 </net>
 </nets>
