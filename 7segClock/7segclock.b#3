@@ -371,6 +371,53 @@ chip</description>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
+<package name="CSTNE16M0V530000R0">
+<smd name="1" x="1.2" y="0" dx="0.4" dy="1.9" layer="1" rot="R180"/>
+<smd name="2" x="0" y="0" dx="0.4" dy="1.9" layer="1" rot="R180"/>
+<smd name="3" x="-1.2" y="0" dx="0.4" dy="1.9" layer="1" rot="R180"/>
+<wire x1="-1.6" y1="0.65" x2="-1.6" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.65" x2="1.6" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.65" x2="1.6" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.65" x2="-1.6" y2="0.65" width="0.127" layer="21"/>
+<text x="-2" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="PIN_HEADER_MALE_2X03_06P">
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
+<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
+<pad name="P$1" x="-3.81" y="1.27" drill="1"/>
+<pad name="P$2" x="-3.81" y="-1.27" drill="1" shape="octagon"/>
+<pad name="P$3" x="-1.27" y="1.27" drill="1" shape="octagon"/>
+<pad name="P$4" x="-1.27" y="-1.27" drill="1" shape="octagon"/>
+<pad name="P$5" x="1.27" y="1.27" drill="1" shape="octagon"/>
+<pad name="P$6" x="1.27" y="-1.27" drill="1" shape="octagon"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="TQFP32-0.8-7X7MM" urn="urn:adsk.eagle:package:8004811/1" type="box">
@@ -595,13 +642,20 @@ design rules under a new name.</description>
 <element name="U2" library="taki-library" package="SOP28-TITANMICROELECTRONICS" value="TM1640" x="35" y="52" smashed="yes">
 <attribute name="NAME" x="25.8" y="48.25" size="1.27" layer="25" ratio="12" rot="R90"/>
 </element>
-<element name="C1" library="taki-library" package="C0603" value="" x="2" y="-15" smashed="yes">
-<attribute name="NAME" x="1.111" y="-14.238" size="1.27" layer="25"/>
-<attribute name="VALUE" x="1.111" y="-17.032" size="1.27" layer="27"/>
+<element name="C1" library="taki-library" package="C0603" value="" x="7.7" y="66.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.938" y="65.211" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="9.732" y="65.211" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C2" library="taki-library" package="C0603" value="" x="2" y="-19" smashed="yes">
-<attribute name="NAME" x="1.111" y="-18.238" size="1.27" layer="25"/>
-<attribute name="VALUE" x="1.111" y="-21.032" size="1.27" layer="27"/>
+<element name="C2" library="taki-library" package="C0603" value="" x="20" y="64.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.938" y="63.711" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="22.032" y="64.011" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="Q1" library="taki-library" package="CSTNE16M0V530000R0" value="CSTNE16M0V530000R0" x="7.8" y="62.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.8" y="60.8" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="J1" library="taki-library" package="PIN_HEADER_MALE_2X03_06P" value="ICSP" x="13" y="76" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.921" y="81.08" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="8.809" y="81.08" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -702,10 +756,18 @@ design rules under a new name.</description>
 <contactref element="U1" pad="5"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C1" pad="2"/>
-<wire x1="9.7074" y1="67.2" x2="18.2926" y2="66.4" width="0" layer="19" extent="1-1"/>
+<contactref element="Q1" pad="2"/>
+<contactref element="J1" pad="P$5"/>
+<wire x1="7.95" y1="67.2" x2="7.7" y2="66.95" width="0.2032" layer="1"/>
+<wire x1="9.7074" y1="67.2" x2="7.95" y2="67.2" width="0.4064" layer="1"/>
+<wire x1="18.2926" y1="66.4" x2="19.2" y2="66.4" width="0.4064" layer="1"/>
+<wire x1="19.2" y1="66.4" x2="19.4" y2="66.6" width="0.4064" layer="1"/>
+<wire x1="19.4" y1="66.6" x2="20" y2="66.6" width="0.4064" layer="1"/>
+<wire x1="20" y1="65.75" x2="20" y2="66.6" width="0.4064" layer="1"/>
+<wire x1="9.7074" y1="67.2" x2="14.27" y2="74.73" width="0" layer="19" extent="1-1"/>
 <wire x1="9.7074" y1="65.6" x2="9.7074" y2="67.2" width="0" layer="19" extent="1-1"/>
-<wire x1="2.85" y1="-15" x2="9.7074" y2="65.6" width="0" layer="19" extent="1-1"/>
-<wire x1="2.85" y1="-19" x2="2.85" y2="-15" width="0" layer="19" extent="1-1"/>
+<wire x1="7.8" y1="62.8" x2="9.7074" y2="65.6" width="0" layer="19" extent="1-1"/>
+<wire x1="18.2926" y1="66.4" x2="9.7074" y2="67.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GRID16">
 <contactref element="U2" pad="5"/>
@@ -787,16 +849,33 @@ design rules under a new name.</description>
 <contactref element="DP2" pad="DIG1"/>
 <wire x1="34.365" y1="56.7563" x2="68.85" y2="42.12" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$9">
+<signal name="N$11">
+<contactref element="Q1" pad="1"/>
+<contactref element="U1" pad="7"/>
+<wire x1="7.8" y1="64" x2="9.7074" y2="64" width="0.2032" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="Q1" pad="3"/>
+<contactref element="U1" pad="8"/>
+<wire x1="7.8" y1="61.6" x2="9.5" y2="61.6" width="0.2032" layer="1"/>
+<wire x1="9.7074" y1="61.8074" x2="9.7074" y2="63.2" width="0.2032" layer="1"/>
+<wire x1="9.5" y1="61.6" x2="9.7074" y2="61.8074" width="0.2032" layer="1"/>
+</signal>
+<signal name="+3V3">
+<contactref element="J1" pad="P$1"/>
 <contactref element="U1" pad="18"/>
 <contactref element="U1" pad="4"/>
 <contactref element="U1" pad="6"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<wire x1="9.7074" y1="64.8" x2="18.2926" y2="64" width="0" layer="19" extent="1-1"/>
-<wire x1="9.7074" y1="66.4" x2="9.7074" y2="64.8" width="0" layer="19" extent="1-1"/>
-<wire x1="1.15" y1="-15" x2="9.7074" y2="64.8" width="0" layer="19" extent="1-1"/>
-<wire x1="1.15" y1="-19" x2="1.15" y2="-15" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7074" y1="64.8" x2="8.9" y2="64.8" width="0.4064" layer="1"/>
+<wire x1="8.9" y1="64.8" x2="8.45" y2="65.25" width="0.4064" layer="1"/>
+<wire x1="8.45" y1="65.25" x2="7.7" y2="65.25" width="0.4064" layer="1"/>
+<wire x1="20" y1="64.05" x2="19.95" y2="64" width="0.4064" layer="1"/>
+<wire x1="19.95" y1="64" x2="18.2926" y2="64" width="0.4064" layer="1"/>
+<wire x1="9.7074" y1="66.4" x2="14.27" y2="79.81" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7074" y1="64.8" x2="9.7074" y2="66.4" width="0" layer="19" extent="1-1"/>
+<wire x1="18.2926" y1="64" x2="9.7074" y2="64.8" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
