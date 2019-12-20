@@ -5516,7 +5516,7 @@ DIN A4, landscape with location and doc. field</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0">
+<class number="0" name="default" width="0.0051625" drill="0">
 </class>
 <class number="1" name="POWER" width="0.254" drill="0">
 </class>
@@ -5532,8 +5532,8 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U1" library="taki-library" deviceset="MCU-ATMEGA328P-AU(TQFP32)" device="" package3d_urn="urn:adsk.eagle:package:8004811/1" value="ATMEGA328P-AU-TQFP32"/>
 <part name="SUPPLY1" library="taki-library" deviceset="GND" device=""/>
 <part name="U2" library="taki-library" deviceset="TM1640" device=""/>
-<part name="C1" library="taki-library" deviceset="C-EU" device="C0603"/>
-<part name="C2" library="taki-library" deviceset="C-EU" device="C0603"/>
+<part name="C1" library="taki-library" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C2" library="taki-library" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="SUPPLY2" library="taki-library" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="taki-library" deviceset="GND" device=""/>
 <part name="Q1" library="taki-library" deviceset="CSTNE16M0V530000R0" device=""/>
@@ -5579,6 +5579,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="J3" library="taki-library" deviceset="S2B-PH-K-S" device=""/>
 <part name="SUPPLY16" library="taki-library" deviceset="GND" device=""/>
 <part name="P+5" library="taki-library" deviceset="+5V" device=""/>
+<part name="C9" library="taki-library" deviceset="C-EU" device="C0603" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5776,6 +5777,10 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="P+5" gate="1" x="228.6" y="104.14" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="231.14" y="99.06" size="1.778" layer="96" rot="MR90"/>
 </instance>
+<instance part="C9" gate="G$1" x="111.76" y="134.62" smashed="yes">
+<attribute name="NAME" x="113.284" y="135.001" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.284" y="129.921" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="GRID[1..16]">
@@ -5961,6 +5966,12 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J1" gate="G$1" pin="RST"/>
 <wire x1="215.9" y1="157.48" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <label x="205.74" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="119.38" y1="139.7" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="137.16" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
+<label x="114.3" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6503,13 +6514,6 @@ DIN A4, landscape with location and doc. field</description>
 <label x="193.04" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CTS" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="CTS"/>
-<wire x1="106.68" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
-<label x="114.3" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DIN" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="DIN"/>
@@ -6532,6 +6536,17 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="200.66" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
 <label x="195.58" y="152.4" size="1.778" layer="95"/>
 <pinref part="U1" gate="U" pin="PC1(ADC1)"/>
+</segment>
+</net>
+<net name="DTR" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="DTR"/>
+<wire x1="106.68" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
+<label x="114.3" y="127" size="1.778" layer="95"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="127" x2="121.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="127" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
+<junction x="111.76" y="127"/>
 </segment>
 </net>
 </nets>
