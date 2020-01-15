@@ -7570,8 +7570,8 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <attribute name="NAME" x="249.936" y="221.488" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="252.095" y="221.488" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V32" gate="G$1" x="246.38" y="246.38" smashed="yes">
-<attribute name="VALUE" x="243.84" y="241.3" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V32" gate="G$1" x="246.38" y="248.92" smashed="yes">
+<attribute name="VALUE" x="243.84" y="243.84" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND4" gate="GND" x="281.94" y="185.42" smashed="yes">
 <attribute name="VALUE" x="280.035" y="182.245" size="1.778" layer="96"/>
@@ -7583,9 +7583,9 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <attribute name="VALUE" x="135.89" y="103.505" size="1.778" layer="96"/>
 <attribute name="NAME" x="135.89" y="123.19" size="1.778" layer="95"/>
 </instance>
-<instance part="J3" gate="G$1" x="297.18" y="162.56" smashed="yes">
-<attribute name="NAME" x="284.48" y="175.26" size="1.27" layer="95"/>
-<attribute name="VALUE" x="284.48" y="139.7" size="1.27" layer="96"/>
+<instance part="J3" gate="G$1" x="269.24" y="154.94" smashed="yes">
+<attribute name="NAME" x="256.54" y="167.64" size="1.27" layer="95"/>
+<attribute name="VALUE" x="256.54" y="132.08" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7747,7 +7747,7 @@ http://akizukidenshi.com/download/ds/kakusya/DMR-09SGG.pdf</description>
 <segment>
 <pinref part="R46" gate="G$1" pin="2"/>
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
-<wire x1="246.38" y1="243.84" x2="246.38" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="246.38" x2="246.38" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RTS" class="0">

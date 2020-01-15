@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.3" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="80" y1="0" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="80" width="0" layer="20"/>
+<wire x1="0" y1="80" x2="80" y2="80" width="0" layer="20"/>
+<wire x1="80" y1="80" x2="80" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="0" x2="0" y2="80" x3="-9" y3="40" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="80" x2="80" y2="80" x3="40" y3="87" textsize="1.778" layer="47"/>
+</plain>
+<libraries>
+<library name="taki-library">
+<packages>
+<package name="TQFP32-0.8-7X7MM" urn="urn:adsk.eagle:footprint:8004748/1">
+<description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
+<wire x1="3.505" y1="3.505" x2="3.505" y2="-3.505" width="0.1524" layer="21"/>
+<wire x1="3.505" y1="-3.505" x2="-3.505" y2="-3.505" width="0.1524" layer="21"/>
+<wire x1="-3.505" y1="-3.505" x2="-3.505" y2="3.15" width="0.1524" layer="21"/>
+<wire x1="-3.15" y1="3.505" x2="3.505" y2="3.505" width="0.1524" layer="21"/>
+<wire x1="-3.15" y1="3.505" x2="-3.505" y2="3.15" width="0.1524" layer="21"/>
+<circle x="-3.937" y="3.937" radius="0.381" width="0" layer="21"/>
+<smd name="1" x="-4.2926" y="2.8" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="2" x="-4.2926" y="2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="3" x="-4.2926" y="1.2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="4" x="-4.2926" y="0.4" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="5" x="-4.2926" y="-0.4" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="6" x="-4.2926" y="-1.2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="7" x="-4.2926" y="-2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="8" x="-4.2926" y="-2.8" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="9" x="-2.8" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="10" x="-2" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="11" x="-1.2" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="12" x="-0.4" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="13" x="0.4" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="14" x="1.2" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="15" x="2" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="16" x="2.8" y="-4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="17" x="4.2926" y="-2.8" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="18" x="4.2926" y="-2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="19" x="4.2926" y="-1.2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="20" x="4.2926" y="-0.4" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="21" x="4.2926" y="0.4" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="22" x="4.2926" y="1.2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="23" x="4.2926" y="2" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="24" x="4.2926" y="2.8" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="25" x="2.8" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="26" x="2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="27" x="1.2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="28" x="0.4" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="29" x="-0.4" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="30" x="-1.2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="31" x="-2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<smd name="32" x="-2.8" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
+<text x="-1.905" y="5.08" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="-0.635" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<rectangle x1="-4.5466" y1="2.5714" x2="-3.556" y2="3.0286" layer="51"/>
+<rectangle x1="-4.5466" y1="1.7714" x2="-3.556" y2="2.2286" layer="51"/>
+<rectangle x1="-4.5466" y1="0.9714" x2="-3.556" y2="1.4286" layer="51"/>
+<rectangle x1="-4.5466" y1="0.1714" x2="-3.556" y2="0.6286" layer="51"/>
+<rectangle x1="-4.5466" y1="-0.6286" x2="-3.556" y2="-0.1714" layer="51"/>
+<rectangle x1="-4.5466" y1="-1.4286" x2="-3.556" y2="-0.9714" layer="51"/>
+<rectangle x1="-4.5466" y1="-2.2286" x2="-3.556" y2="-1.7714" layer="51"/>
+<rectangle x1="-4.5466" y1="-3.0286" x2="-3.556" y2="-2.5714" layer="51"/>
+<rectangle x1="-3.0286" y1="-4.5466" x2="-2.5714" y2="-3.556" layer="51"/>
+<rectangle x1="-2.2286" y1="-4.5466" x2="-1.7714" y2="-3.556" layer="51"/>
+<rectangle x1="-1.4286" y1="-4.5466" x2="-0.9714" y2="-3.556" layer="51"/>
+<rectangle x1="-0.6286" y1="-4.5466" x2="-0.1714" y2="-3.556" layer="51"/>
+<rectangle x1="0.1714" y1="-4.5466" x2="0.6286" y2="-3.556" layer="51"/>
+<rectangle x1="0.9714" y1="-4.5466" x2="1.4286" y2="-3.556" layer="51"/>
+<rectangle x1="1.7714" y1="-4.5466" x2="2.2286" y2="-3.556" layer="51"/>
+<rectangle x1="2.5714" y1="-4.5466" x2="3.0286" y2="-3.556" layer="51"/>
+<rectangle x1="3.556" y1="-3.0286" x2="4.5466" y2="-2.5714" layer="51"/>
+<rectangle x1="3.556" y1="-2.2286" x2="4.5466" y2="-1.7714" layer="51"/>
+<rectangle x1="3.556" y1="-1.4286" x2="4.5466" y2="-0.9714" layer="51"/>
+<rectangle x1="3.556" y1="-0.6286" x2="4.5466" y2="-0.1714" layer="51"/>
+<rectangle x1="3.556" y1="0.1714" x2="4.5466" y2="0.6286" layer="51"/>
+<rectangle x1="3.556" y1="0.9714" x2="4.5466" y2="1.4286" layer="51"/>
+<rectangle x1="3.556" y1="1.7714" x2="4.5466" y2="2.2286" layer="51"/>
+<rectangle x1="3.556" y1="2.5714" x2="4.5466" y2="3.0286" layer="51"/>
+<rectangle x1="2.5714" y1="3.556" x2="3.0286" y2="4.5466" layer="51"/>
+<rectangle x1="1.7714" y1="3.556" x2="2.2286" y2="4.5466" layer="51"/>
+<rectangle x1="0.9714" y1="3.556" x2="1.4286" y2="4.5466" layer="51"/>
+<rectangle x1="0.1714" y1="3.556" x2="0.6286" y2="4.5466" layer="51"/>
+<rectangle x1="-0.6286" y1="3.556" x2="-0.1714" y2="4.5466" layer="51"/>
+<rectangle x1="-1.4286" y1="3.556" x2="-0.9714" y2="4.5466" layer="51"/>
+<rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
+<rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
+<rectangle x1="-3.505" y1="-3.505" x2="3.505" y2="3.505" layer="39"/>
+</package>
+<package name="ZX62R-B-5PA">
+<smd name="D+" x="0" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="D-" x="0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="ID" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="GND" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="VCC" x="1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="SHIELD@2" x="3.1" y="2.35" dx="2.1" dy="2" layer="1"/>
+<smd name="SHIELD@1" x="-3.1" y="2.35" dx="2.1" dy="2" layer="1"/>
+<smd name="NC@1" x="-0.85" y="0" dx="1.2" dy="1.9" layer="1"/>
+<smd name="NC@2" x="0.85" y="0" dx="1.2" dy="1.9" layer="1"/>
+<smd name="SHIELD@3" x="-4.1" y="0" dx="1.6" dy="1.9" layer="1"/>
+<smd name="SHIELD@4" x="4.1" y="0" dx="1.6" dy="1.9" layer="1"/>
+<wire x1="-5.9" y1="-1.45" x2="-3.75" y2="-1.45" width="0.127" layer="131"/>
+<wire x1="-3.75" y1="-1.45" x2="5.9" y2="-1.45" width="0.127" layer="131"/>
+<wire x1="-3.75" y1="3" x2="-3.75" y2="-1.45" width="0.127" layer="131"/>
+<wire x1="3.75" y1="3" x2="3.75" y2="-1.4" width="0.127" layer="131"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.75" y1="3" x2="3.75" y2="3" width="0.127" layer="131"/>
+<rectangle x1="-3.75" y1="-1.45" x2="3.75" y2="2" layer="41"/>
+<wire x1="-3.75" y1="-1.45" x2="-3.75" y2="-2.75" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-2.75" x2="3.75" y2="-2.75" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-2.75" x2="3.75" y2="-1.45" width="0.127" layer="51"/>
+</package>
+<package name="SSOP28" urn="urn:adsk.eagle:footprint:14004/1">
+<description>&lt;b&gt;Shrink Small Outline Package&lt;/b&gt; SSOP-28&lt;p&gt;
+http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</description>
+<wire x1="-5.1" y1="-2.6" x2="5.1" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="-2.6" x2="5.1" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="5.1" y1="2.6" x2="-5.1" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="-5.1" y1="2.6" x2="-5.1" y2="-2.6" width="0.2032" layer="21"/>
+<circle x="-4.2" y="-1.625" radius="0.4422" width="0" layer="21"/>
+<smd name="1" x="-4.225" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="2" x="-3.575" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="3" x="-2.925" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="4" x="-2.275" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="5" x="-1.625" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="6" x="-0.975" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="7" x="-0.325" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="8" x="0.325" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="9" x="0.975" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="10" x="1.625" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="11" x="2.275" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="12" x="2.925" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="13" x="3.575" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="14" x="4.225" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="15" x="4.225" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="16" x="3.575" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="17" x="2.925" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="18" x="2.275" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="19" x="1.625" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="20" x="0.975" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="21" x="0.325" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="22" x="-0.325" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="23" x="-0.975" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="24" x="-1.625" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="25" x="-2.275" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="26" x="-2.925" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="27" x="-3.575" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="28" x="-4.225" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<text x="-5.476" y="-2.6299" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.8999" y="-0.68" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.4028" y1="-3.937" x2="-4.0472" y2="-2.6416" layer="51"/>
+<rectangle x1="-3.7529" y1="-3.937" x2="-3.3973" y2="-2.6416" layer="51"/>
+<rectangle x1="-3.1029" y1="-3.937" x2="-2.7473" y2="-2.6416" layer="51"/>
+<rectangle x1="-2.4529" y1="-3.937" x2="-2.0973" y2="-2.6416" layer="51"/>
+<rectangle x1="-1.8029" y1="-3.937" x2="-1.4473" y2="-2.6416" layer="51"/>
+<rectangle x1="-1.1529" y1="-3.937" x2="-0.7973" y2="-2.6416" layer="51"/>
+<rectangle x1="-0.5029" y1="-3.937" x2="-0.1473" y2="-2.6416" layer="51"/>
+<rectangle x1="0.1473" y1="-3.937" x2="0.5029" y2="-2.6416" layer="51"/>
+<rectangle x1="0.7973" y1="-3.937" x2="1.1529" y2="-2.6416" layer="51"/>
+<rectangle x1="1.4473" y1="-3.937" x2="1.8029" y2="-2.6416" layer="51"/>
+<rectangle x1="2.0973" y1="-3.937" x2="2.4529" y2="-2.6416" layer="51"/>
+<rectangle x1="2.7473" y1="-3.937" x2="3.1029" y2="-2.6416" layer="51"/>
+<rectangle x1="3.3973" y1="-3.937" x2="3.7529" y2="-2.6416" layer="51"/>
+<rectangle x1="4.0472" y1="-3.937" x2="4.4028" y2="-2.6416" layer="51"/>
+<rectangle x1="4.0472" y1="2.6416" x2="4.4028" y2="3.937" layer="51"/>
+<rectangle x1="3.3973" y1="2.6416" x2="3.7529" y2="3.937" layer="51"/>
+<rectangle x1="2.7473" y1="2.6416" x2="3.1029" y2="3.937" layer="51"/>
+<rectangle x1="2.0973" y1="2.6416" x2="2.4529" y2="3.937" layer="51"/>
+<rectangle x1="1.4473" y1="2.6416" x2="1.8029" y2="3.937" layer="51"/>
+<rectangle x1="0.7973" y1="2.6416" x2="1.1529" y2="3.937" layer="51"/>
+<rectangle x1="0.1473" y1="2.6416" x2="0.5029" y2="3.937" layer="51"/>
+<rectangle x1="-0.5029" y1="2.6416" x2="-0.1473" y2="3.937" layer="51"/>
+<rectangle x1="-1.1529" y1="2.6416" x2="-0.7973" y2="3.937" layer="51"/>
+<rectangle x1="-1.8029" y1="2.6416" x2="-1.4473" y2="3.937" layer="51"/>
+<rectangle x1="-2.4529" y1="2.6416" x2="-2.0973" y2="3.937" layer="51"/>
+<rectangle x1="-3.1029" y1="2.6416" x2="-2.7473" y2="3.937" layer="51"/>
+<rectangle x1="-3.7529" y1="2.6416" x2="-3.3973" y2="3.937" layer="51"/>
+<rectangle x1="-4.4028" y1="2.6416" x2="-4.0472" y2="3.937" layer="51"/>
+</package>
+<package name="SOP18_TOSHIBA">
+<smd name="1" x="0" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="2" x="1.27" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="3" x="2.54" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="4" x="3.81" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="5" x="5.08" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="6" x="6.35" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="7" x="7.62" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="8" x="8.89" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="9" x="10.16" y="-3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="10" x="10.16" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="11" x="8.89" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="12" x="7.62" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="13" x="6.35" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="14" x="5.08" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="15" x="3.81" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="16" x="2.54" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="17" x="1.27" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<smd name="18" x="0" y="3.775" dx="0.6" dy="1.725" layer="1"/>
+<wire x1="-0.67" y1="3.81" x2="-0.67" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-0.67" y1="-3.81" x2="10.83" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="10.83" y1="-3.81" x2="10.83" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="10.83" y1="3.81" x2="-0.67" y2="3.81" width="0.1524" layer="21"/>
+<text x="0" y="-7.62" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+</package>
+<package name="CHIPLED_0603-H">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
+<circle x="-0.625" y="-0.35" radius="0.075" width="0.0508" layer="51"/>
+<wire x1="-0.825" y1="-0.3" x2="-0.825" y2="0.3" width="0.1016" layer="51" curve="180" cap="flat"/>
+<wire x1="0.825" y1="-0.275" x2="0.825" y2="0.275" width="0.0508" layer="51" curve="-180" cap="flat"/>
+<wire x1="-0.375" y1="-0.4" x2="0.35" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="-0.35" y1="0.4" x2="0.35" y2="0.4" width="0.1016" layer="51"/>
+<rectangle x1="-0.875" y1="-0.425" x2="-0.675" y2="-0.275" layer="51" rot="R90"/>
+<rectangle x1="-0.6" y1="-0.275" x2="-0.55" y2="-0.225" layer="51" rot="R90"/>
+<rectangle x1="-0.5625" y1="-0.6125" x2="-0.5125" y2="-0.2375" layer="51" rot="R90"/>
+<rectangle x1="-0.8" y1="0.2" x2="-0.6" y2="0.5" layer="51" rot="R90"/>
+<rectangle x1="-0.9125" y1="-0.1125" x2="-0.0125" y2="0.1125" layer="51" rot="R90"/>
+<rectangle x1="0.5" y1="-0.6" x2="0.7" y2="-0.1" layer="51" rot="R90"/>
+<rectangle x1="0.5" y1="0.1" x2="0.7" y2="0.6" layer="51" rot="R90"/>
+<rectangle x1="0.1875" y1="-0.1125" x2="0.7375" y2="0.1125" layer="51" rot="R90"/>
+<rectangle x1="0.55" y1="-0.275" x2="0.65" y2="-0.175" layer="51" rot="R90"/>
+<rectangle x1="0.55" y1="0.175" x2="0.65" y2="0.275" layer="51" rot="R90"/>
+<rectangle x1="-0.25" y1="-0.125" x2="0" y2="0.125" layer="21" rot="R90"/>
+<smd name="A" x="0.75" y="0" dx="0.8" dy="0.8" layer="1" rot="R90"/>
+<smd name="C" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1" rot="R90"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<text x="1.27" y="1.905" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TQFP32-0.8-7X7MM" urn="urn:adsk.eagle:package:8004811/1" type="box">
+<description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
+<packageinstances>
+<packageinstance name="TQFP32-0.8-7X7MM"/>
+</packageinstances>
+</package3d>
+<package3d name="SSOP28" urn="urn:adsk.eagle:package:14013/1" type="box">
+<description>Shrink Small Outline Package SSOP-28
+http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</description>
+<packageinstances>
+<packageinstance name="SSOP28"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
+</class>
+</classes>
+<designrules name="Elecrow_2-layer_PCB_eagle_rule">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<description language="zh">&lt;b&gt;Elecrow PCB EAGLE Design Rules&lt;/b&gt;
+</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.6mm 1.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="20mil"/>
+<param name="mdDrill" value="10mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="12mil"/>
+<param name="msMicroVia" value="12mil"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="6mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="6mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="6mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="0"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="100mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="0"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="U1" library="taki-library" package="TQFP32-0.8-7X7MM" package3d_urn="urn:adsk.eagle:package:8004811/1" value="ATMEGA328P-AU-TQFP32" x="105" y="50" smashed="yes">
+<attribute name="MPN" value="ATMEGA328P-AU" x="105" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="103.095" y="55.08" size="0.889" layer="25" ratio="11"/>
+<attribute name="VALUE" x="103.095" y="49.365" size="0.889" layer="27" ratio="11"/>
+</element>
+<element name="J1" library="taki-library" package="ZX62R-B-5PA" value="ZX62R-AB-5P" x="107" y="39" smashed="yes">
+<attribute name="NAME" x="104" y="43" size="1.27" layer="25"/>
+<attribute name="VALUE" x="104" y="33.46" size="1.27" layer="27"/>
+</element>
+<element name="U2" library="taki-library" package="SSOP28" package3d_urn="urn:adsk.eagle:package:14013/1" value="FT232RL" x="108" y="28" smashed="yes">
+<attribute name="MF" value="" x="108" y="28" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="FT232RL" x="108" y="28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="102.524" y="25.3701" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_FARNELL" value="1146032" x="108" y="28" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="91K9918" x="108" y="28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="104.1001" y="27.32" size="1.27" layer="27"/>
+</element>
+<element name="U3" library="taki-library" package="SOP18_TOSHIBA" value="TD62783" x="121" y="37" smashed="yes">
+<attribute name="NAME" x="121" y="43.35" size="1.778" layer="25"/>
+<attribute name="VALUE" x="121" y="29.38" size="1.778" layer="27"/>
+</element>
+<element name="D10" library="taki-library" package="CHIPLED_0603-H" value="" x="61.16026875" y="69.1246125" smashed="yes" rot="R54">
+<attribute name="NAME" x="63.001325" y="69.72763125" size="1.27" layer="25" rot="R234"/>
+<attribute name="VALUE" x="60.365578125" y="71.27179375" size="1.27" layer="27" rot="R234"/>
+</element>
+<element name="D1" library="taki-library" package="CHIPLED_0603-H" value="" x="76" y="40" smashed="yes">
+<attribute name="NAME" x="77.57" y="38.865" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="77.27" y="41.905" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D2" library="taki-library" package="CHIPLED_0603-H" value="" x="75.8027875" y="43.763025" smashed="yes" rot="R6">
+<attribute name="NAME" x="77.482825" y="42.79835" size="1.27" layer="25" rot="R186"/>
+<attribute name="VALUE" x="76.866703125" y="45.7903375" size="1.27" layer="27" rot="R186"/>
+</element>
+<element name="D3" library="taki-library" package="CHIPLED_0603-H" value="" x="75.2133125" y="47.484821875" smashed="yes" rot="R12">
+<attribute name="NAME" x="76.98498125" y="46.70104375" size="1.27" layer="25" rot="R192"/>
+<attribute name="VALUE" x="76.0594875" y="49.612240625" size="1.27" layer="27" rot="R192"/>
+</element>
+<element name="D4" library="taki-library" package="CHIPLED_0603-H" value="" x="74.238034375" y="51.1246125" smashed="yes" rot="R18">
+<attribute name="NAME" x="76.081925" y="50.53031875" size="1.27" layer="25" rot="R198"/>
+<attribute name="VALUE" x="74.857196875" y="53.328825" size="1.27" layer="27" rot="R198"/>
+</element>
+<element name="D5" library="taki-library" package="CHIPLED_0603-H" value="" x="72.8876375" y="54.64251875" smashed="yes" rot="R24">
+<attribute name="NAME" x="74.783546875" y="54.24421875" size="1.27" layer="25" rot="R204"/>
+<attribute name="VALUE" x="73.27300625" y="56.899378125" size="1.27" layer="27" rot="R204"/>
+</element>
+<element name="D6" library="taki-library" package="CHIPLED_0603-H" value="" x="71.176915625" y="58" smashed="yes" rot="R30">
+<attribute name="NAME" x="73.104075" y="57.802059375" size="1.27" layer="25" rot="R210"/>
+<attribute name="VALUE" x="71.324265625" y="60.284778125" size="1.27" layer="27" rot="R210"/>
+</element>
+<element name="D7" library="taki-library" package="CHIPLED_0603-H" value="" x="69.1246125" y="61.16026875" smashed="yes" rot="R36">
+<attribute name="NAME" x="71.061903125" y="61.16485625" size="1.27" layer="25" rot="R216"/>
+<attribute name="VALUE" x="69.03233125" y="63.44793125" size="1.27" layer="27" rot="R216"/>
+</element>
+<element name="D8" library="taki-library" package="CHIPLED_0603-H" value="" x="66.7532125" y="64.088703125" smashed="yes" rot="R42">
+<attribute name="NAME" x="68.6794125" y="64.29576875" size="1.27" layer="25" rot="R222"/>
+<attribute name="VALUE" x="66.4223125" y="66.3541875" size="1.27" layer="27" rot="R222"/>
+</element>
+<element name="D9" library="taki-library" package="CHIPLED_0603-H" value="" x="64.088703125" y="66.7532125" smashed="yes" rot="R48">
+<attribute name="NAME" x="65.98270625" y="67.160484375" size="1.27" layer="25" rot="R228"/>
+<attribute name="VALUE" x="63.52280625" y="68.9717" size="1.27" layer="27" rot="R228"/>
+</element>
+<element name="D11" library="taki-library" package="CHIPLED_0603-H" value="" x="58" y="71.176915625" smashed="yes" rot="R60">
+<attribute name="NAME" x="59.7679375" y="71.969075" size="1.27" layer="25" rot="R240"/>
+<attribute name="VALUE" x="56.98521875" y="73.229265625" size="1.27" layer="27" rot="R240"/>
+</element>
+<element name="D12" library="taki-library" package="CHIPLED_0603-H" value="" x="54.64251875" y="72.8876375" smashed="yes" rot="R66">
+<attribute name="NAME" x="56.31796875" y="73.86025625" size="1.27" layer="25" rot="R246"/>
+<attribute name="VALUE" x="53.41876875" y="74.822671875" size="1.27" layer="27" rot="R246"/>
+</element>
+<element name="D13" library="taki-library" package="CHIPLED_0603-H" value="" x="51.1246125" y="74.238034375" smashed="yes" rot="R72">
+<attribute name="NAME" x="52.689215625" y="75.38045625" size="1.27" layer="25" rot="R252"/>
+<attribute name="VALUE" x="49.7053" y="76.034553125" size="1.27" layer="27" rot="R252"/>
+</element>
+<element name="D14" library="taki-library" package="CHIPLED_0603-H" value="" x="47.484821875" y="75.2133125" smashed="yes" rot="R78">
+<attribute name="NAME" x="48.921440625" y="76.513021875" size="1.27" layer="25" rot="R258"/>
+<attribute name="VALUE" x="45.885496875" y="76.85163125" size="1.27" layer="27" rot="R258"/>
+</element>
+<element name="D15" library="taki-library" package="CHIPLED_0603-H" value="" x="43.763025" y="75.8027875" smashed="yes" rot="R84">
+<attribute name="NAME" x="45.055915625" y="77.245546875" size="1.27" layer="25" rot="R264"/>
+<attribute name="VALUE" x="42.001209375" y="77.26495625" size="1.27" layer="27" rot="R264"/>
+</element>
+<element name="D16" library="taki-library" package="CHIPLED_0603-H" value="" x="40" y="76" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.135" y="77.57" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="38.095" y="77.27" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="D17" library="taki-library" package="CHIPLED_0603-H" value="" x="36.236975" y="75.8027875" smashed="yes" rot="R96">
+<attribute name="NAME" x="37.201646875" y="77.482825" size="1.27" layer="25" rot="R276"/>
+<attribute name="VALUE" x="34.209659375" y="76.866703125" size="1.27" layer="27" rot="R276"/>
+</element>
+<element name="D18" library="taki-library" package="CHIPLED_0603-H" value="" x="32.515178125" y="75.2133125" smashed="yes" rot="R102">
+<attribute name="NAME" x="33.298953125" y="76.98498125" size="1.27" layer="25" rot="R282"/>
+<attribute name="VALUE" x="30.38775625" y="76.0594875" size="1.27" layer="27" rot="R282"/>
+</element>
+<element name="D19" library="taki-library" package="CHIPLED_0603-H" value="" x="28.8753875" y="74.238034375" smashed="yes" rot="R108">
+<attribute name="NAME" x="29.469678125" y="76.081925" size="1.27" layer="25" rot="R288"/>
+<attribute name="VALUE" x="26.671171875" y="74.857196875" size="1.27" layer="27" rot="R288"/>
+</element>
+<element name="D20" library="taki-library" package="CHIPLED_0603-H" value="" x="25.35748125" y="72.8876375" smashed="yes" rot="R114">
+<attribute name="NAME" x="25.755778125" y="74.783546875" size="1.27" layer="25" rot="R294"/>
+<attribute name="VALUE" x="23.10061875" y="73.27300625" size="1.27" layer="27" rot="R294"/>
+</element>
+<element name="D21" library="taki-library" package="CHIPLED_0603-H" value="" x="22" y="71.176915625" smashed="yes" rot="R120">
+<attribute name="NAME" x="22.1979375" y="73.104075" size="1.27" layer="25" rot="R300"/>
+<attribute name="VALUE" x="19.71521875" y="71.324265625" size="1.27" layer="27" rot="R300"/>
+</element>
+<element name="D22" library="taki-library" package="CHIPLED_0603-H" value="" x="18.83973125" y="69.1246125" smashed="yes" rot="R126">
+<attribute name="NAME" x="18.835140625" y="71.061903125" size="1.27" layer="25" rot="R306"/>
+<attribute name="VALUE" x="16.552065625" y="69.03233125" size="1.27" layer="27" rot="R306"/>
+</element>
+<element name="D23" library="taki-library" package="CHIPLED_0603-H" value="" x="15.911296875" y="66.7532125" smashed="yes" rot="R132">
+<attribute name="NAME" x="15.704228125" y="68.6794125" size="1.27" layer="25" rot="R312"/>
+<attribute name="VALUE" x="13.645809375" y="66.4223125" size="1.27" layer="27" rot="R312"/>
+</element>
+<element name="D24" library="taki-library" package="CHIPLED_0603-H" value="" x="13.2467875" y="64.088703125" smashed="yes" rot="R138">
+<attribute name="NAME" x="12.8395125" y="65.98270625" size="1.27" layer="25" rot="R318"/>
+<attribute name="VALUE" x="11.028296875" y="63.52280625" size="1.27" layer="27" rot="R318"/>
+</element>
+<element name="D25" library="taki-library" package="CHIPLED_0603-H" value="" x="10.8753875" y="61.16026875" smashed="yes" rot="R144">
+<attribute name="NAME" x="10.272365625" y="63.001325" size="1.27" layer="25" rot="R324"/>
+<attribute name="VALUE" x="8.728203125" y="60.365578125" size="1.27" layer="27" rot="R324"/>
+</element>
+<element name="D26" library="taki-library" package="CHIPLED_0603-H" value="" x="8.823084375" y="58" smashed="yes" rot="R150">
+<attribute name="NAME" x="8.030921875" y="59.7679375" size="1.27" layer="25" rot="R330"/>
+<attribute name="VALUE" x="6.77073125" y="56.98521875" size="1.27" layer="27" rot="R330"/>
+</element>
+<element name="D27" library="taki-library" package="CHIPLED_0603-H" value="" x="7.1123625" y="54.64251875" smashed="yes" rot="R156">
+<attribute name="NAME" x="6.139740625" y="56.31796875" size="1.27" layer="25" rot="R336"/>
+<attribute name="VALUE" x="5.177325" y="53.41876875" size="1.27" layer="27" rot="R336"/>
+</element>
+<element name="D28" library="taki-library" package="CHIPLED_0603-H" value="" x="5.761965625" y="51.1246125" smashed="yes" rot="R162">
+<attribute name="NAME" x="4.619540625" y="52.689215625" size="1.27" layer="25" rot="R342"/>
+<attribute name="VALUE" x="3.96544375" y="49.7053" size="1.27" layer="27" rot="R342"/>
+</element>
+<element name="D29" library="taki-library" package="CHIPLED_0603-H" value="" x="4.7866875" y="47.484821875" smashed="yes" rot="R168">
+<attribute name="NAME" x="3.486975" y="48.921440625" size="1.27" layer="25" rot="R348"/>
+<attribute name="VALUE" x="3.148365625" y="45.885496875" size="1.27" layer="27" rot="R348"/>
+</element>
+<element name="D30" library="taki-library" package="CHIPLED_0603-H" value="" x="4.1972125" y="43.763025" smashed="yes" rot="R174">
+<attribute name="NAME" x="2.75445" y="45.055915625" size="1.27" layer="25" rot="R354"/>
+<attribute name="VALUE" x="2.735040625" y="42.001209375" size="1.27" layer="27" rot="R354"/>
+</element>
+<element name="D31" library="taki-library" package="CHIPLED_0603-H" value="" x="4" y="40" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.43" y="41.135" size="1.27" layer="25"/>
+<attribute name="VALUE" x="2.73" y="38.095" size="1.27" layer="27"/>
+</element>
+<element name="D32" library="taki-library" package="CHIPLED_0603-H" value="" x="4.1972125" y="36.236975" smashed="yes" rot="R186">
+<attribute name="NAME" x="2.517171875" y="37.201646875" size="1.27" layer="25" rot="R6"/>
+<attribute name="VALUE" x="3.13329375" y="34.209659375" size="1.27" layer="27" rot="R6"/>
+</element>
+<element name="D33" library="taki-library" package="CHIPLED_0603-H" value="" x="4.7866875" y="32.515178125" smashed="yes" rot="R192">
+<attribute name="NAME" x="3.015015625" y="33.298953125" size="1.27" layer="25" rot="R12"/>
+<attribute name="VALUE" x="3.940509375" y="30.38775625" size="1.27" layer="27" rot="R12"/>
+</element>
+<element name="D34" library="taki-library" package="CHIPLED_0603-H" value="" x="5.761965625" y="28.8753875" smashed="yes" rot="R198">
+<attribute name="NAME" x="3.918071875" y="29.469678125" size="1.27" layer="25" rot="R18"/>
+<attribute name="VALUE" x="5.1428" y="26.671171875" size="1.27" layer="27" rot="R18"/>
+</element>
+<element name="D35" library="taki-library" package="CHIPLED_0603-H" value="" x="7.1123625" y="25.35748125" smashed="yes" rot="R204">
+<attribute name="NAME" x="5.21645" y="25.755778125" size="1.27" layer="25" rot="R24"/>
+<attribute name="VALUE" x="6.726990625" y="23.10061875" size="1.27" layer="27" rot="R24"/>
+</element>
+<element name="D36" library="taki-library" package="CHIPLED_0603-H" value="" x="8.823084375" y="22" smashed="yes" rot="R210">
+<attribute name="NAME" x="6.895921875" y="22.1979375" size="1.27" layer="25" rot="R30"/>
+<attribute name="VALUE" x="8.67573125" y="19.71521875" size="1.27" layer="27" rot="R30"/>
+</element>
+<element name="D37" library="taki-library" package="CHIPLED_0603-H" value="" x="10.8753875" y="18.83973125" smashed="yes" rot="R216">
+<attribute name="NAME" x="8.93809375" y="18.835140625" size="1.27" layer="25" rot="R36"/>
+<attribute name="VALUE" x="10.967665625" y="16.552065625" size="1.27" layer="27" rot="R36"/>
+</element>
+<element name="D38" library="taki-library" package="CHIPLED_0603-H" value="" x="13.2467875" y="15.911296875" smashed="yes" rot="R222">
+<attribute name="NAME" x="11.320584375" y="15.704228125" size="1.27" layer="25" rot="R42"/>
+<attribute name="VALUE" x="13.577684375" y="13.645809375" size="1.27" layer="27" rot="R42"/>
+</element>
+<element name="D39" library="taki-library" package="CHIPLED_0603-H" value="" x="15.911296875" y="13.2467875" smashed="yes" rot="R228">
+<attribute name="NAME" x="14.017290625" y="12.8395125" size="1.27" layer="25" rot="R48"/>
+<attribute name="VALUE" x="16.477190625" y="11.028296875" size="1.27" layer="27" rot="R48"/>
+</element>
+<element name="D40" library="taki-library" package="CHIPLED_0603-H" value="" x="18.83973125" y="10.8753875" smashed="yes" rot="R234">
+<attribute name="NAME" x="16.998671875" y="10.272365625" size="1.27" layer="25" rot="R54"/>
+<attribute name="VALUE" x="19.63441875" y="8.728203125" size="1.27" layer="27" rot="R54"/>
+</element>
+<element name="D41" library="taki-library" package="CHIPLED_0603-H" value="" x="22" y="8.823084375" smashed="yes" rot="R240">
+<attribute name="NAME" x="20.232059375" y="8.030921875" size="1.27" layer="25" rot="R60"/>
+<attribute name="VALUE" x="23.014778125" y="6.77073125" size="1.27" layer="27" rot="R60"/>
+</element>
+<element name="D42" library="taki-library" package="CHIPLED_0603-H" value="" x="25.35748125" y="7.1123625" smashed="yes" rot="R246">
+<attribute name="NAME" x="23.682028125" y="6.139740625" size="1.27" layer="25" rot="R66"/>
+<attribute name="VALUE" x="26.581228125" y="5.177325" size="1.27" layer="27" rot="R66"/>
+</element>
+<element name="D43" library="taki-library" package="CHIPLED_0603-H" value="" x="28.8753875" y="5.761965625" smashed="yes" rot="R252">
+<attribute name="NAME" x="27.31078125" y="4.619540625" size="1.27" layer="25" rot="R72"/>
+<attribute name="VALUE" x="30.294696875" y="3.96544375" size="1.27" layer="27" rot="R72"/>
+</element>
+<element name="D44" library="taki-library" package="CHIPLED_0603-H" value="" x="32.515178125" y="4.7866875" smashed="yes" rot="R258">
+<attribute name="NAME" x="31.07855625" y="3.486975" size="1.27" layer="25" rot="R78"/>
+<attribute name="VALUE" x="34.1145" y="3.148365625" size="1.27" layer="27" rot="R78"/>
+</element>
+<element name="D45" library="taki-library" package="CHIPLED_0603-H" value="" x="36.236975" y="4.1972125" smashed="yes" rot="R264">
+<attribute name="NAME" x="34.94408125" y="2.75445" size="1.27" layer="25" rot="R84"/>
+<attribute name="VALUE" x="37.9987875" y="2.735040625" size="1.27" layer="27" rot="R84"/>
+</element>
+<element name="D46" library="taki-library" package="CHIPLED_0603-H" value="" x="40" y="4" smashed="yes" rot="R270">
+<attribute name="NAME" x="38.865" y="2.43" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="41.905" y="2.73" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="D47" library="taki-library" package="CHIPLED_0603-H" value="" x="43.763025" y="4.1972125" smashed="yes" rot="R276">
+<attribute name="NAME" x="42.79835" y="2.517171875" size="1.27" layer="25" rot="R96"/>
+<attribute name="VALUE" x="45.7903375" y="3.13329375" size="1.27" layer="27" rot="R96"/>
+</element>
+<element name="D48" library="taki-library" package="CHIPLED_0603-H" value="" x="47.484821875" y="4.7866875" smashed="yes" rot="R282">
+<attribute name="NAME" x="46.70104375" y="3.015015625" size="1.27" layer="25" rot="R102"/>
+<attribute name="VALUE" x="49.612240625" y="3.940509375" size="1.27" layer="27" rot="R102"/>
+</element>
+<element name="D49" library="taki-library" package="CHIPLED_0603-H" value="" x="51.1246125" y="5.761965625" smashed="yes" rot="R288">
+<attribute name="NAME" x="50.53031875" y="3.918071875" size="1.27" layer="25" rot="R108"/>
+<attribute name="VALUE" x="53.328825" y="5.1428" size="1.27" layer="27" rot="R108"/>
+</element>
+<element name="D50" library="taki-library" package="CHIPLED_0603-H" value="" x="54.64251875" y="7.1123625" smashed="yes" rot="R294">
+<attribute name="NAME" x="54.24421875" y="5.21645" size="1.27" layer="25" rot="R114"/>
+<attribute name="VALUE" x="56.899378125" y="6.726990625" size="1.27" layer="27" rot="R114"/>
+</element>
+<element name="D51" library="taki-library" package="CHIPLED_0603-H" value="" x="58" y="8.823084375" smashed="yes" rot="R300">
+<attribute name="NAME" x="57.802059375" y="6.895921875" size="1.27" layer="25" rot="R120"/>
+<attribute name="VALUE" x="60.284778125" y="8.67573125" size="1.27" layer="27" rot="R120"/>
+</element>
+<element name="D52" library="taki-library" package="CHIPLED_0603-H" value="" x="61.16026875" y="10.8753875" smashed="yes" rot="R306">
+<attribute name="NAME" x="61.16485625" y="8.93809375" size="1.27" layer="25" rot="R126"/>
+<attribute name="VALUE" x="63.44793125" y="10.967665625" size="1.27" layer="27" rot="R126"/>
+</element>
+<element name="D53" library="taki-library" package="CHIPLED_0603-H" value="" x="64.088703125" y="13.2467875" smashed="yes" rot="R312">
+<attribute name="NAME" x="64.29576875" y="11.320584375" size="1.27" layer="25" rot="R132"/>
+<attribute name="VALUE" x="66.3541875" y="13.577684375" size="1.27" layer="27" rot="R132"/>
+</element>
+<element name="D54" library="taki-library" package="CHIPLED_0603-H" value="" x="66.7532125" y="15.911296875" smashed="yes" rot="R318">
+<attribute name="NAME" x="67.160484375" y="14.017290625" size="1.27" layer="25" rot="R138"/>
+<attribute name="VALUE" x="68.9717" y="16.477190625" size="1.27" layer="27" rot="R138"/>
+</element>
+<element name="D55" library="taki-library" package="CHIPLED_0603-H" value="" x="69.1246125" y="18.83973125" smashed="yes" rot="R324">
+<attribute name="NAME" x="69.72763125" y="16.998671875" size="1.27" layer="25" rot="R144"/>
+<attribute name="VALUE" x="71.27179375" y="19.63441875" size="1.27" layer="27" rot="R144"/>
+</element>
+<element name="D56" library="taki-library" package="CHIPLED_0603-H" value="" x="71.176915625" y="22" smashed="yes" rot="R330">
+<attribute name="NAME" x="71.969075" y="20.232059375" size="1.27" layer="25" rot="R150"/>
+<attribute name="VALUE" x="73.229265625" y="23.014778125" size="1.27" layer="27" rot="R150"/>
+</element>
+<element name="D57" library="taki-library" package="CHIPLED_0603-H" value="" x="72.8876375" y="25.35748125" smashed="yes" rot="R336">
+<attribute name="NAME" x="73.86025625" y="23.682028125" size="1.27" layer="25" rot="R156"/>
+<attribute name="VALUE" x="74.822671875" y="26.581228125" size="1.27" layer="27" rot="R156"/>
+</element>
+<element name="D58" library="taki-library" package="CHIPLED_0603-H" value="" x="74.238034375" y="28.8753875" smashed="yes" rot="R342">
+<attribute name="NAME" x="75.38045625" y="27.31078125" size="1.27" layer="25" rot="R162"/>
+<attribute name="VALUE" x="76.034553125" y="30.294696875" size="1.27" layer="27" rot="R162"/>
+</element>
+<element name="D59" library="taki-library" package="CHIPLED_0603-H" value="" x="75.2133125" y="32.515178125" smashed="yes" rot="R348">
+<attribute name="NAME" x="76.513021875" y="31.07855625" size="1.27" layer="25" rot="R168"/>
+<attribute name="VALUE" x="76.85163125" y="34.1145" size="1.27" layer="27" rot="R168"/>
+</element>
+<element name="D60" library="taki-library" package="CHIPLED_0603-H" value="" x="75.8027875" y="36.236975" smashed="yes" rot="R354">
+<attribute name="NAME" x="77.245546875" y="34.94408125" size="1.27" layer="25" rot="R174"/>
+<attribute name="VALUE" x="77.26495625" y="37.9987875" size="1.27" layer="27" rot="R174"/>
+</element>
+<element name="D62" library="taki-library" package="CHIPLED_0603-H" value="" x="66.8467875" y="55.5" smashed="yes" rot="R30">
+<attribute name="NAME" x="68.773946875" y="55.302059375" size="1.27" layer="25" rot="R210"/>
+<attribute name="VALUE" x="66.9941375" y="57.784778125" size="1.27" layer="27" rot="R210"/>
+</element>
+<element name="D63" library="taki-library" package="CHIPLED_0603-H" value="" x="55.5" y="66.8467875" smashed="yes" rot="R60">
+<attribute name="NAME" x="57.2679375" y="67.638946875" size="1.27" layer="25" rot="R240"/>
+<attribute name="VALUE" x="54.48521875" y="68.8991375" size="1.27" layer="27" rot="R240"/>
+</element>
+<element name="D64" library="taki-library" package="CHIPLED_0603-H" value="" x="40" y="71" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.135" y="72.57" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="38.095" y="72.27" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="D65" library="taki-library" package="CHIPLED_0603-H" value="" x="24.5" y="66.8467875" smashed="yes" rot="R120">
+<attribute name="NAME" x="24.6979375" y="68.773946875" size="1.27" layer="25" rot="R300"/>
+<attribute name="VALUE" x="22.21521875" y="66.9941375" size="1.27" layer="27" rot="R300"/>
+</element>
+<element name="D66" library="taki-library" package="CHIPLED_0603-H" value="" x="13.1532125" y="55.5" smashed="yes" rot="R150">
+<attribute name="NAME" x="12.36105" y="57.2679375" size="1.27" layer="25" rot="R330"/>
+<attribute name="VALUE" x="11.100859375" y="54.48521875" size="1.27" layer="27" rot="R330"/>
+</element>
+<element name="D67" library="taki-library" package="CHIPLED_0603-H" value="" x="9" y="40" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.43" y="41.135" size="1.27" layer="25"/>
+<attribute name="VALUE" x="7.73" y="38.095" size="1.27" layer="27"/>
+</element>
+<element name="D68" library="taki-library" package="CHIPLED_0603-H" value="" x="13.1532125" y="24.5" smashed="yes" rot="R210">
+<attribute name="NAME" x="11.22605" y="24.6979375" size="1.27" layer="25" rot="R30"/>
+<attribute name="VALUE" x="13.005859375" y="22.21521875" size="1.27" layer="27" rot="R30"/>
+</element>
+<element name="D69" library="taki-library" package="CHIPLED_0603-H" value="" x="24.5" y="13.1532125" smashed="yes" rot="R240">
+<attribute name="NAME" x="22.732059375" y="12.36105" size="1.27" layer="25" rot="R60"/>
+<attribute name="VALUE" x="25.514778125" y="11.100859375" size="1.27" layer="27" rot="R60"/>
+</element>
+<element name="D70" library="taki-library" package="CHIPLED_0603-H" value="" x="40" y="9" smashed="yes" rot="R270">
+<attribute name="NAME" x="38.865" y="7.43" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="41.905" y="7.73" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="D71" library="taki-library" package="CHIPLED_0603-H" value="" x="55.5" y="13.1532125" smashed="yes" rot="R300">
+<attribute name="NAME" x="55.302059375" y="11.22605" size="1.27" layer="25" rot="R120"/>
+<attribute name="VALUE" x="57.784778125" y="13.005859375" size="1.27" layer="27" rot="R120"/>
+</element>
+<element name="D72" library="taki-library" package="CHIPLED_0603-H" value="" x="66.8467875" y="24.5" smashed="yes" rot="R330">
+<attribute name="NAME" x="67.638946875" y="22.732059375" size="1.27" layer="25" rot="R150"/>
+<attribute name="VALUE" x="68.8991375" y="25.514778125" size="1.27" layer="27" rot="R150"/>
+</element>
+<element name="D74" library="taki-library" package="CHIPLED_0603-H" value="" x="29" y="-15" smashed="yes">
+<attribute name="NAME" x="30.57" y="-16.135" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.27" y="-13.095" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D75" library="taki-library" package="CHIPLED_0603-H" value="" x="29" y="-19" smashed="yes">
+<attribute name="NAME" x="30.57" y="-20.135" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.27" y="-17.095" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D76" library="taki-library" package="CHIPLED_0603-H" value="" x="29" y="-23" smashed="yes">
+<attribute name="NAME" x="30.57" y="-24.135" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.27" y="-21.095" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D77" library="taki-library" package="CHIPLED_0603-H" value="" x="29" y="-27" smashed="yes">
+<attribute name="NAME" x="30.57" y="-28.135" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.27" y="-25.095" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D78" library="taki-library" package="CHIPLED_0603-H" value="" x="29" y="-31" smashed="yes">
+<attribute name="NAME" x="30.57" y="-32.135" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.27" y="-29.095" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D79" library="taki-library" package="CHIPLED_0603-H" value="" x="29" y="-35" smashed="yes">
+<attribute name="NAME" x="30.57" y="-36.135" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.27" y="-33.095" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D80" library="taki-library" package="CHIPLED_0603-H" value="" x="29" y="-39" smashed="yes">
+<attribute name="NAME" x="30.57" y="-40.135" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.27" y="-37.095" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D61" library="taki-library" package="CHIPLED_0603-H" value="" x="71" y="40" smashed="yes">
+<attribute name="NAME" x="72.57" y="38.865" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="72.27" y="41.905" size="1.27" layer="27" rot="R180"/>
+</element>
+</elements>
+<signals>
+<signal name="VCC">
+<contactref element="U2" pad="20"/>
+</signal>
+<signal name="GND">
+<contactref element="U2" pad="7"/>
+<contactref element="U2" pad="25"/>
+<contactref element="U2" pad="18"/>
+<contactref element="U2" pad="21"/>
+<wire x1="108.325" y1="31.625" x2="110.275" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="105.725" y1="31.625" x2="108.325" y2="31.625" width="0" layer="19" extent="1-1"/>
+<wire x1="107.675" y1="24.375" x2="108.325" y2="31.625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCCIO">
+<contactref element="U2" pad="4"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
